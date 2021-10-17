@@ -1,4 +1,4 @@
-﻿namespace CensoExcel.AssemblyInfo
+﻿namespace ExcelPlugin.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices

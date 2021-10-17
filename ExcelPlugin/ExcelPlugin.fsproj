@@ -81,7 +81,6 @@
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Cell.fs" />
     <Compile Include="Table.fs" />
-    <Compile Include="Extensions.fs" />
     <Compile Include="Excel.fs" />
     <Content Include="packages.config" />
     <None Include="Properties\ExcelDna.Build.props" />
