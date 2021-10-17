@@ -1,0 +1,9 @@
+query ($id:ID!) {
+    employee(id: $id) {
+        company {
+            id
+            name
+            industry
+        }
+    }
+}

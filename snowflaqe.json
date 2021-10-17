@@ -1,0 +1,7 @@
+{
+    "schema": "http://localhost:5000/graphql",
+    "queries": "./queries",
+    "project": "CompanyData",
+    "output": "./CompanyData",
+    "target": "fsharp"
+}

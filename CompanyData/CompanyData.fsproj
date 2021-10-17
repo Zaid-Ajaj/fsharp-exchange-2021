@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include=".\CompanyData.StringEnum.fs" />
+    <Compile Include=".\CompanyData.Types.fs" />
+    <Compile Include=".\CompanyData.CompanyByEmployeeId.fs" />
+    <Compile Include=".\CompanyData.GetAllCompanies.fs" />
+    <Compile Include=".\CompanyData.GraphqlClient.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.7.2" />
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+    <PackageReference Include="Fable.Remoting.Json" Version="2.18.0" />
+  </ItemGroup>
+</Project>

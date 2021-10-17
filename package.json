@@ -1,0 +1,15 @@
+{
+  "name": "fs-exchange-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "graphql-faker --open --port 5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "graphql-faker": "^2.0.0-rc.25"
+  }
+}

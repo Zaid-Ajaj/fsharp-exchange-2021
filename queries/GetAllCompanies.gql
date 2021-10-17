@@ -1,0 +1,14 @@
+query GetAllCompanies {
+    allCompanies {
+        id
+        name
+        industry
+        employees {
+            id
+            firstName
+            lastName
+            status
+            address
+        }
+    }
+}
